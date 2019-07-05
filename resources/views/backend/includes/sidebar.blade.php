@@ -16,6 +16,12 @@
             </li>
             {{--end_Address_end--}}
 
+        {{--start_Customer_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/customers')) }}" href=" {{ route('admin.customer.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.customers') }}</a>
+            </li>
+            {{--end_Customer_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

@@ -147,8 +147,36 @@ return [
                 'country' => "Country",
                 'details' => "Details"
             ]
-        ]
+        ],
         //end_Address_end
+
+        //start_Customer_start
+        'customers' => [
+            'management' => 'Customers Management',
+            'create' => 'Create Customer',
+            'view' => 'View Customer',
+            'edit' => 'Edit Customer',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Customer Name",
+                'coming_date' => "Coming Date",
+                'details' => "Details",
+                'sort' => 'Sort',
+                'total' => 'Customers total|Customers total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update',
+                'id' => "Id",
+                'name' => "Customer Name",
+                'coming_date' => "Coming Date",
+                'details' => "Details"
+            ]
+        ]
+        //end_Customer_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

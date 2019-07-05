@@ -49,8 +49,11 @@ return [
             'system' => 'System',
 
             //begin_Address_begin
-            'addresses' => 'Addresses'
+            'addresses' => 'Addresses',
             //finish_Address_finish
+            //begin_Customer_begin
+            'customers' => 'Customers'
+            //finish_Customer_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -62,8 +65,19 @@ return [
             'edit' => 'Edit Address',
             'management' => 'Address Management',
             'main' => 'Addresses'
-        ]
+        ],
         //end_Address_end
+
+        //start_Customer_start
+        'customers' => [
+            'view' => 'View Customer',
+            'all' => 'All Customers',
+            'create' => 'Create Customer',
+            'edit' => 'Edit Customer',
+            'management' => 'Customer Management',
+            'main' => 'Customers'
+        ]
+        //end_Customer_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

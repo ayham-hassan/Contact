@@ -41,6 +41,40 @@ Breadcrumbs::register('admin.address.edit', function ($breadcrumbs, $id) {
 });
 //end_Address_end
 
+//start_Customer_start
+Breadcrumbs::register('admin.customer.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.customers.title'),
+        route('admin.customer.index')
+    );
+});
+
+Breadcrumbs::register('admin.customer.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.customer.index');
+    $breadcrumbs->push(
+        __('labels.backend.customers.create'),
+        route('admin.customer.create')
+    );
+});
+
+Breadcrumbs::register('admin.customer.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.customer.index');
+    $breadcrumbs->push(
+        __('menus.backend.customers.view'),
+        route('admin.customer.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.customer.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.customer.index');
+    $breadcrumbs->push(
+        __('menus.backend.customers.edit'),
+        route('admin.customer.edit', $id)
+    );
+});
+//end_Customer_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

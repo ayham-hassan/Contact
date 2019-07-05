@@ -205,8 +205,16 @@ return [
                 'zipcode' => "Zipode",
                 'country' => "Country",
                 'details' => "Details"
-            ]
+            ],
             //end_Address_end
+            //start_Customer_start
+            'customers' => [
+                'id' => "Id",
+                'name' => "Customer Name",
+                'coming_date' => "Coming Date",
+                'details' => "Details"
+            ]
+            //end_Customer_end
             // Do not delete me :) I'm used for auto-generation
         ],
 
