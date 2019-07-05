@@ -97,8 +97,16 @@ return [
             'saved' => 'Type saved successfully.',
             'updated' => 'Type updated successfully.',
             'deleted' => 'Type deleted successfully.'
-        ]
+        ],
         //end_Type_end
+
+        //start_ContactActivity_start
+        'contact_activity' => [
+            'saved' => 'ContactActivity saved successfully.',
+            'updated' => 'ContactActivity updated successfully.',
+            'deleted' => 'ContactActivity deleted successfully.'
+        ]
+        //end_ContactActivity_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

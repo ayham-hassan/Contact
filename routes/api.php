@@ -51,4 +51,9 @@ Route::resource('type', 'API\TypeAPIController');
 
 //end_Type_end
 
+//start_ContactActivity_start
+Route::resource('contact_activity', 'API\ContactActivityAPIController');
+
+//end_ContactActivity_end
+
 //*****Do Not Delete Me

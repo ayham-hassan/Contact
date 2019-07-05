@@ -251,6 +251,46 @@ Breadcrumbs::register('admin.type.edit', function ($breadcrumbs, $id) {
 });
 //end_Type_end
 
+//start_ContactActivity_start
+Breadcrumbs::register('admin.contact_activity.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.contact_activities.title'),
+        route('admin.contact_activity.index')
+    );
+});
+
+Breadcrumbs::register('admin.contact_activity.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.contact_activity.index');
+    $breadcrumbs->push(
+        __('labels.backend.contact_activities.create'),
+        route('admin.contact_activity.create')
+    );
+});
+
+Breadcrumbs::register('admin.contact_activity.show', function (
+    $breadcrumbs,
+    $id
+) {
+    $breadcrumbs->parent('admin.contact_activity.index');
+    $breadcrumbs->push(
+        __('menus.backend.contact_activities.view'),
+        route('admin.contact_activity.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.contact_activity.edit', function (
+    $breadcrumbs,
+    $id
+) {
+    $breadcrumbs->parent('admin.contact_activity.index');
+    $breadcrumbs->push(
+        __('menus.backend.contact_activities.edit'),
+        route('admin.contact_activity.edit', $id)
+    );
+});
+//end_ContactActivity_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

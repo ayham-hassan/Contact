@@ -325,8 +325,40 @@ return [
                 'code' => "Code",
                 'description' => "Description"
             ]
-        ]
+        ],
         //end_Type_end
+
+        //start_ContactActivity_start
+        'contact_activities' => [
+            'management' => 'Contact Activities Management',
+            'create' => 'Create ContactActivity',
+            'view' => 'View ContactActivity',
+            'edit' => 'Edit ContactActivity',
+
+            'table' => [
+                'id' => "Id",
+                'contact_id' => "Contact Name",
+                'type_id' => "Type Code",
+                'outcome_id' => "Outcome Code",
+                'activity_date' => "Activity date",
+                'details' => "Details",
+                'sort' => 'Sort',
+                'total' => 'Contact Activities total|Contact Activities total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update',
+                'id' => "Id",
+                'contact_id' => "Contact Name",
+                'type_id' => "Type Code",
+                'outcome_id' => "Outcome Code",
+                'activity_date' => "Activity date",
+                'details' => "Details"
+            ]
+        ]
+        //end_ContactActivity_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

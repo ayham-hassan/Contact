@@ -67,8 +67,11 @@ return [
             'outcomes' => 'Outcome',
             //finish_Outcome_finish
             //begin_Type_begin
-            'types' => 'Types'
+            'types' => 'Types',
             //finish_Type_finish
+            //begin_ContactActivity_begin
+            'contact_activities' => 'Contact Activities'
+            //finish_ContactActivity_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -146,8 +149,19 @@ return [
             'edit' => 'Edit Type',
             'management' => 'Type Management',
             'main' => 'Types'
-        ]
+        ],
         //end_Type_end
+
+        //start_ContactActivity_start
+        'contact_activities' => [
+            'view' => 'View ContactActivity',
+            'all' => 'All Contact Activities',
+            'create' => 'Create ContactActivity',
+            'edit' => 'Edit ContactActivity',
+            'management' => 'ContactActivity Management',
+            'main' => 'Contact Activities'
+        ]
+        //end_ContactActivity_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

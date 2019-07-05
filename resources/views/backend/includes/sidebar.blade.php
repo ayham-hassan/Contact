@@ -52,6 +52,12 @@
             </li>
             {{--end_Type_end--}}
 
+        {{--start_ContactActivity_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/contact_activities')) }}" href=" {{ route('admin.contact_activity.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.contact_activities') }}</a>
+            </li>
+            {{--end_ContactActivity_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

@@ -69,6 +69,11 @@ return [
             'title' => 'Types'
         ],
         //end_Type_end
+        //start_ContactActivity_start
+        'contact_activities' => [
+            'title' => 'Contact Activities'
+        ],
+        //end_ContactActivity_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

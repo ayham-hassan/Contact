@@ -258,8 +258,18 @@ return [
                 'id' => "Id",
                 'code' => "Code",
                 'description' => "Description"
-            ]
+            ],
             //end_Type_end
+            //start_ContactActivity_start
+            'contact_activities' => [
+                'id' => "Id",
+                'contact_id' => "Contact Name",
+                'type_id' => "Type Code",
+                'outcome_id' => "Outcome Code",
+                'activity_date' => "Activity date",
+                'details' => "Details"
+            ]
+            //end_ContactActivity_end
             // Do not delete me :) I'm used for auto-generation
         ],
 
