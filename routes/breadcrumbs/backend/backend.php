@@ -149,6 +149,40 @@ Breadcrumbs::register('admin.status.edit', function ($breadcrumbs, $id) {
 });
 //end_Status_end
 
+//start_Contact_start
+Breadcrumbs::register('admin.contact.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.contacts.title'),
+        route('admin.contact.index')
+    );
+});
+
+Breadcrumbs::register('admin.contact.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.contact.index');
+    $breadcrumbs->push(
+        __('labels.backend.contacts.create'),
+        route('admin.contact.create')
+    );
+});
+
+Breadcrumbs::register('admin.contact.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.contact.index');
+    $breadcrumbs->push(
+        __('menus.backend.contacts.view'),
+        route('admin.contact.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.contact.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.contact.index');
+    $breadcrumbs->push(
+        __('menus.backend.contacts.edit'),
+        route('admin.contact.edit', $id)
+    );
+});
+//end_Contact_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

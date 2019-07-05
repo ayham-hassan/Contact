@@ -73,8 +73,16 @@ return [
             'saved' => 'Status saved successfully.',
             'updated' => 'Status updated successfully.',
             'deleted' => 'Status deleted successfully.'
-        ]
+        ],
         //end_Status_end
+
+        //start_Contact_start
+        'contact' => [
+            'saved' => 'Contact saved successfully.',
+            'updated' => 'Contact updated successfully.',
+            'deleted' => 'Contact deleted successfully.'
+        ]
+        //end_Contact_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

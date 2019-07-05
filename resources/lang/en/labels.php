@@ -231,8 +231,50 @@ return [
                 'code' => "Code",
                 'description' => "Description"
             ]
-        ]
+        ],
         //end_Status_end
+
+        //start_Contact_start
+        'contacts' => [
+            'management' => 'Contacts Management',
+            'create' => 'Create Contact',
+            'view' => 'View Contact',
+            'edit' => 'Edit Contact',
+
+            'table' => [
+                'id' => "Id",
+                'image' => "Photo",
+                'name' => "Name",
+                'customer_id' => "Customer Name",
+                'status_id' => "Status Code",
+                'email' => "Email",
+                'web_sit' => "Web Site",
+                'phone' => "Phone",
+                'mobile' => "Mobile",
+                'fax' => "Fax",
+                'details' => "Details",
+                'sort' => 'Sort',
+                'total' => 'Contacts total|Contacts total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update',
+                'id' => "Id",
+                'image' => "Photo",
+                'name' => "Name",
+                'customer_id' => "Customer Name",
+                'status_id' => "Status Code",
+                'email' => "Email",
+                'web_sit' => "Web Site",
+                'phone' => "Phone",
+                'mobile' => "Mobile",
+                'fax' => "Fax",
+                'details' => "Details"
+            ]
+        ]
+        //end_Contact_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

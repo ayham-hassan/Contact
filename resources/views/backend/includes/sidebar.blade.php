@@ -34,6 +34,12 @@
             </li>
             {{--end_Status_end--}}
 
+        {{--start_Contact_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/contacts')) }}" href=" {{ route('admin.contact.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.contacts') }}</a>
+            </li>
+            {{--end_Contact_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

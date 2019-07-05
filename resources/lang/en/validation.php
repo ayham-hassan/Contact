@@ -229,8 +229,23 @@ return [
                 'id' => "Id",
                 'code' => "Code",
                 'description' => "Description"
-            ]
+            ],
             //end_Status_end
+            //start_Contact_start
+            'contacts' => [
+                'id' => "Id",
+                'image' => "Photo",
+                'name' => "Name",
+                'customer_id' => "Customer Name",
+                'status_id' => "Status Code",
+                'email' => "Email",
+                'web_sit' => "Web Site",
+                'phone' => "Phone",
+                'mobile' => "Mobile",
+                'fax' => "Fax",
+                'details' => "Details"
+            ]
+            //end_Contact_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

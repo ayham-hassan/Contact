@@ -54,6 +54,11 @@ return [
             'title' => 'Status'
         ],
         //end_Status_end
+        //start_Contact_start
+        'contacts' => [
+            'title' => 'Contacts'
+        ],
+        //end_Contact_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

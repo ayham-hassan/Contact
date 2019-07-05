@@ -36,4 +36,9 @@ Route::resource('status', 'API\StatusAPIController');
 
 //end_Status_end
 
+//start_Contact_start
+Route::resource('contact', 'API\ContactAPIController');
+
+//end_Contact_end
+
 //*****Do Not Delete Me
