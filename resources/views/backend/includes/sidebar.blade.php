@@ -10,6 +10,12 @@
             </li>
 
 
+        {{--start_Address_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/addresses')) }}" href=" {{ route('admin.address.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.addresses') }}</a>
+            </li>
+            {{--end_Address_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

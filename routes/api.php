@@ -16,4 +16,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//start_Address_start
+Route::resource('address', 'API\AddressAPIController');
+
+//end_Address_end
+
 //*****Do Not Delete Me
