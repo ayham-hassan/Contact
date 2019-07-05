@@ -46,4 +46,9 @@ Route::resource('outcome', 'API\OutcomeAPIController');
 
 //end_Outcome_end
 
+//start_Type_start
+Route::resource('type', 'API\TypeAPIController');
+
+//end_Type_end
+
 //*****Do Not Delete Me

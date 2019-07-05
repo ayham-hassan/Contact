@@ -251,8 +251,15 @@ return [
                 'id' => "Id",
                 'code' => "Code",
                 'description' => "Description"
-            ]
+            ],
             //end_Outcome_end
+            //start_Type_start
+            'types' => [
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description"
+            ]
+            //end_Type_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

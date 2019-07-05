@@ -64,8 +64,11 @@ return [
             'contacts' => 'Contacts',
             //finish_Contact_finish
             //begin_Outcome_begin
-            'outcomes' => 'Outcome'
+            'outcomes' => 'Outcome',
             //finish_Outcome_finish
+            //begin_Type_begin
+            'types' => 'Types'
+            //finish_Type_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -132,8 +135,19 @@ return [
             'edit' => 'Edit Outcome',
             'management' => 'Outcome Management',
             'main' => 'Outcome'
-        ]
+        ],
         //end_Outcome_end
+
+        //start_Type_start
+        'types' => [
+            'view' => 'View Type',
+            'all' => 'All Types',
+            'create' => 'Create Type',
+            'edit' => 'Edit Type',
+            'management' => 'Type Management',
+            'main' => 'Types'
+        ]
+        //end_Type_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

@@ -89,8 +89,16 @@ return [
             'saved' => 'Outcome saved successfully.',
             'updated' => 'Outcome updated successfully.',
             'deleted' => 'Outcome deleted successfully.'
-        ]
+        ],
         //end_Outcome_end
+
+        //start_Type_start
+        'type' => [
+            'saved' => 'Type saved successfully.',
+            'updated' => 'Type updated successfully.',
+            'deleted' => 'Type deleted successfully.'
+        ]
+        //end_Type_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

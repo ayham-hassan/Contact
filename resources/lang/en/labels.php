@@ -299,8 +299,34 @@ return [
                 'code' => "Code",
                 'description' => "Description"
             ]
-        ]
+        ],
         //end_Outcome_end
+
+        //start_Type_start
+        'types' => [
+            'management' => 'Types Management',
+            'create' => 'Create Type',
+            'view' => 'View Type',
+            'edit' => 'Edit Type',
+
+            'table' => [
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description",
+                'sort' => 'Sort',
+                'total' => 'Types total|Types total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update',
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description"
+            ]
+        ]
+        //end_Type_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

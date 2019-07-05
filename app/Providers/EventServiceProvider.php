@@ -64,8 +64,12 @@ class EventServiceProvider extends ServiceProvider
         //end_Contact_end
 
         //start_Outcome_start
-        \App\Listeners\Backend\OutcomeEventListener::class
+        \App\Listeners\Backend\OutcomeEventListener::class,
         //end_Outcome_end
+
+        //start_Type_start
+        \App\Listeners\Backend\TypeEventListener::class
+        //end_Type_end
 
         // Do not delete me :) I'm used for auto-generation
     ];

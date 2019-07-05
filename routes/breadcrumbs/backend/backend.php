@@ -217,6 +217,40 @@ Breadcrumbs::register('admin.outcome.edit', function ($breadcrumbs, $id) {
 });
 //end_Outcome_end
 
+//start_Type_start
+Breadcrumbs::register('admin.type.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.types.title'),
+        route('admin.type.index')
+    );
+});
+
+Breadcrumbs::register('admin.type.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.type.index');
+    $breadcrumbs->push(
+        __('labels.backend.types.create'),
+        route('admin.type.create')
+    );
+});
+
+Breadcrumbs::register('admin.type.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.type.index');
+    $breadcrumbs->push(
+        __('menus.backend.types.view'),
+        route('admin.type.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.type.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.type.index');
+    $breadcrumbs->push(
+        __('menus.backend.types.edit'),
+        route('admin.type.edit', $id)
+    );
+});
+//end_Type_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

@@ -46,6 +46,12 @@
             </li>
             {{--end_Outcome_end--}}
 
+        {{--start_Type_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/types')) }}" href=" {{ route('admin.type.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.types') }}</a>
+            </li>
+            {{--end_Type_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

@@ -64,6 +64,11 @@ return [
             'title' => 'Outcome'
         ],
         //end_Outcome_end
+        //start_Type_start
+        'types' => [
+            'title' => 'Types'
+        ],
+        //end_Type_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [
