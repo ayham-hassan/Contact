@@ -10,6 +10,54 @@
             </li>
 
 
+        {{--start_Address_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/addresses')) }}" href=" {{ route('admin.address.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.addresses') }}</a>
+            </li>
+            {{--end_Address_end--}}
+
+        {{--start_Customer_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/customers')) }}" href=" {{ route('admin.customer.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.customers') }}</a>
+            </li>
+            {{--end_Customer_end--}}
+
+        {{--start_CustomerAddress_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/customer_addresses')) }}" href=" {{ route('admin.customer_address.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.customer_addresses') }}</a>
+            </li>
+            {{--end_CustomerAddress_end--}}
+
+        {{--start_Status_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/status')) }}" href=" {{ route('admin.status.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.status') }}</a>
+            </li>
+            {{--end_Status_end--}}
+
+        {{--start_Contact_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/contacts')) }}" href=" {{ route('admin.contact.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.contacts') }}</a>
+            </li>
+            {{--end_Contact_end--}}
+
+        {{--start_Outcome_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/outcomes')) }}" href=" {{ route('admin.outcome.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.outcomes') }}</a>
+            </li>
+            {{--end_Outcome_end--}}
+
+        {{--start_Type_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/types')) }}" href=" {{ route('admin.type.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.types') }}</a>
+            </li>
+            {{--end_Type_end--}}
+
+        {{--start_ContactActivity_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/contact_activities')) }}" href=" {{ route('admin.contact_activity.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.contact_activities') }}</a>
+            </li>
+            {{--end_ContactActivity_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
