@@ -26,4 +26,9 @@ Route::resource('customer', 'API\CustomerAPIController');
 
 //end_Customer_end
 
+//start_CustomerAddress_start
+Route::resource('customer_address', 'API\CustomerAddressAPIController');
+
+//end_CustomerAddress_end
+
 //*****Do Not Delete Me

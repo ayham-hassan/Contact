@@ -48,8 +48,12 @@ class EventServiceProvider extends ServiceProvider
         //end_Address_end
 
         //start_Customer_start
-        \App\Listeners\Backend\CustomerEventListener::class
+        \App\Listeners\Backend\CustomerEventListener::class,
         //end_Customer_end
+
+        //start_CustomerAddress_start
+        \App\Listeners\Backend\CustomerAddressEventListener::class
+        //end_CustomerAddress_end
 
         // Do not delete me :) I'm used for auto-generation
     ];

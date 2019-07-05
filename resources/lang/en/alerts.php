@@ -57,8 +57,16 @@ return [
             'saved' => 'Customer saved successfully.',
             'updated' => 'Customer updated successfully.',
             'deleted' => 'Customer deleted successfully.'
-        ]
+        ],
         //end_Customer_end
+
+        //start_CustomerAddress_start
+        'customer_address' => [
+            'saved' => 'CustomerAddress saved successfully.',
+            'updated' => 'CustomerAddress updated successfully.',
+            'deleted' => 'CustomerAddress deleted successfully.'
+        ]
+        //end_CustomerAddress_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

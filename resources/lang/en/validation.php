@@ -213,8 +213,17 @@ return [
                 'name' => "Customer Name",
                 'coming_date' => "Coming Date",
                 'details' => "Details"
-            ]
+            ],
             //end_Customer_end
+            //start_CustomerAddress_start
+            'customer_addresses' => [
+                'id' => "Id",
+                'customer_id' => "Customer Name",
+                'address_id' => "Address City",
+                'rec_date' => "Record Date",
+                'details' => "Details"
+            ]
+            //end_CustomerAddress_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

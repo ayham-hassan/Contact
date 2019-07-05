@@ -75,6 +75,46 @@ Breadcrumbs::register('admin.customer.edit', function ($breadcrumbs, $id) {
 });
 //end_Customer_end
 
+//start_CustomerAddress_start
+Breadcrumbs::register('admin.customer_address.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.customer_addresses.title'),
+        route('admin.customer_address.index')
+    );
+});
+
+Breadcrumbs::register('admin.customer_address.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.customer_address.index');
+    $breadcrumbs->push(
+        __('labels.backend.customer_addresses.create'),
+        route('admin.customer_address.create')
+    );
+});
+
+Breadcrumbs::register('admin.customer_address.show', function (
+    $breadcrumbs,
+    $id
+) {
+    $breadcrumbs->parent('admin.customer_address.index');
+    $breadcrumbs->push(
+        __('menus.backend.customer_addresses.view'),
+        route('admin.customer_address.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.customer_address.edit', function (
+    $breadcrumbs,
+    $id
+) {
+    $breadcrumbs->parent('admin.customer_address.index');
+    $breadcrumbs->push(
+        __('menus.backend.customer_addresses.edit'),
+        route('admin.customer_address.edit', $id)
+    );
+});
+//end_CustomerAddress_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

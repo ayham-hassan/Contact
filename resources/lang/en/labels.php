@@ -175,8 +175,38 @@ return [
                 'coming_date' => "Coming Date",
                 'details' => "Details"
             ]
-        ]
+        ],
         //end_Customer_end
+
+        //start_CustomerAddress_start
+        'customer_addresses' => [
+            'management' => 'Customer Address Management',
+            'create' => 'Create CustomerAddress',
+            'view' => 'View CustomerAddress',
+            'edit' => 'Edit CustomerAddress',
+
+            'table' => [
+                'id' => "Id",
+                'customer_id' => "Customer Name",
+                'address_id' => "Address City",
+                'rec_date' => "Record Date",
+                'details' => "Details",
+                'sort' => 'Sort',
+                'total' => 'Customer Address total|Customer Address total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update',
+                'id' => "Id",
+                'customer_id' => "Customer Name",
+                'address_id' => "Address City",
+                'rec_date' => "Record Date",
+                'details' => "Details"
+            ]
+        ]
+        //end_CustomerAddress_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
