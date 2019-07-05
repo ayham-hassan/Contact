@@ -55,8 +55,11 @@ return [
             'customers' => 'Customers',
             //finish_Customer_finish
             //begin_CustomerAddress_begin
-            'customer_addresses' => 'Customer Address'
+            'customer_addresses' => 'Customer Address',
             //finish_CustomerAddress_finish
+            //begin_Status_begin
+            'status' => 'Status'
+            //finish_Status_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -90,8 +93,19 @@ return [
             'edit' => 'Edit CustomerAddress',
             'management' => 'CustomerAddress Management',
             'main' => 'Customer Address'
-        ]
+        ],
         //end_CustomerAddress_end
+
+        //start_Status_start
+        'status' => [
+            'view' => 'View Status',
+            'all' => 'All Status',
+            'create' => 'Create Status',
+            'edit' => 'Edit Status',
+            'management' => 'Status Management',
+            'main' => 'Status'
+        ]
+        //end_Status_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

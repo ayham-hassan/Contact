@@ -31,4 +31,9 @@ Route::resource('customer_address', 'API\CustomerAddressAPIController');
 
 //end_CustomerAddress_end
 
+//start_Status_start
+Route::resource('status', 'API\StatusAPIController');
+
+//end_Status_end
+
 //*****Do Not Delete Me

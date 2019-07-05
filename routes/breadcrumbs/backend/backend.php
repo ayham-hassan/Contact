@@ -115,6 +115,40 @@ Breadcrumbs::register('admin.customer_address.edit', function (
 });
 //end_CustomerAddress_end
 
+//start_Status_start
+Breadcrumbs::register('admin.status.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.status.title'),
+        route('admin.status.index')
+    );
+});
+
+Breadcrumbs::register('admin.status.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.status.index');
+    $breadcrumbs->push(
+        __('labels.backend.status.create'),
+        route('admin.status.create')
+    );
+});
+
+Breadcrumbs::register('admin.status.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.status.index');
+    $breadcrumbs->push(
+        __('menus.backend.status.view'),
+        route('admin.status.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.status.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.status.index');
+    $breadcrumbs->push(
+        __('menus.backend.status.edit'),
+        route('admin.status.edit', $id)
+    );
+});
+//end_Status_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

@@ -222,8 +222,15 @@ return [
                 'address_id' => "Address City",
                 'rec_date' => "Record Date",
                 'details' => "Details"
-            ]
+            ],
             //end_CustomerAddress_end
+            //start_Status_start
+            'status' => [
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description"
+            ]
+            //end_Status_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

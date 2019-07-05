@@ -49,6 +49,11 @@ return [
             'title' => 'Customer Address'
         ],
         //end_CustomerAddress_end
+        //start_Status_start
+        'status' => [
+            'title' => 'Status'
+        ],
+        //end_Status_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

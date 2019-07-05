@@ -28,6 +28,12 @@
             </li>
             {{--end_CustomerAddress_end--}}
 
+        {{--start_Status_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/status')) }}" href=" {{ route('admin.status.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.status') }}</a>
+            </li>
+            {{--end_Status_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
