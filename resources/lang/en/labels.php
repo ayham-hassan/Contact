@@ -273,8 +273,34 @@ return [
                 'fax' => "Fax",
                 'details' => "Details"
             ]
-        ]
+        ],
         //end_Contact_end
+
+        //start_Outcome_start
+        'outcomes' => [
+            'management' => 'Outcome Management',
+            'create' => 'Create Outcome',
+            'view' => 'View Outcome',
+            'edit' => 'Edit Outcome',
+
+            'table' => [
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description",
+                'sort' => 'Sort',
+                'total' => 'Outcome total|Outcome total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update',
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description"
+            ]
+        ]
+        //end_Outcome_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

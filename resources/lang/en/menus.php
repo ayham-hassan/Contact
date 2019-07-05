@@ -61,8 +61,11 @@ return [
             'status' => 'Status',
             //finish_Status_finish
             //begin_Contact_begin
-            'contacts' => 'Contacts'
+            'contacts' => 'Contacts',
             //finish_Contact_finish
+            //begin_Outcome_begin
+            'outcomes' => 'Outcome'
+            //finish_Outcome_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -118,8 +121,19 @@ return [
             'edit' => 'Edit Contact',
             'management' => 'Contact Management',
             'main' => 'Contacts'
-        ]
+        ],
         //end_Contact_end
+
+        //start_Outcome_start
+        'outcomes' => [
+            'view' => 'View Outcome',
+            'all' => 'All Outcome',
+            'create' => 'Create Outcome',
+            'edit' => 'Edit Outcome',
+            'management' => 'Outcome Management',
+            'main' => 'Outcome'
+        ]
+        //end_Outcome_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

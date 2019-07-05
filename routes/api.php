@@ -41,4 +41,9 @@ Route::resource('contact', 'API\ContactAPIController');
 
 //end_Contact_end
 
+//start_Outcome_start
+Route::resource('outcome', 'API\OutcomeAPIController');
+
+//end_Outcome_end
+
 //*****Do Not Delete Me

@@ -40,6 +40,12 @@
             </li>
             {{--end_Contact_end--}}
 
+        {{--start_Outcome_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/outcomes')) }}" href=" {{ route('admin.outcome.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.outcomes') }}</a>
+            </li>
+            {{--end_Outcome_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

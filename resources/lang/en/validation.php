@@ -244,8 +244,15 @@ return [
                 'mobile' => "Mobile",
                 'fax' => "Fax",
                 'details' => "Details"
-            ]
+            ],
             //end_Contact_end
+            //start_Outcome_start
+            'outcomes' => [
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description"
+            ]
+            //end_Outcome_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

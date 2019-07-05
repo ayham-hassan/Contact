@@ -81,8 +81,16 @@ return [
             'saved' => 'Contact saved successfully.',
             'updated' => 'Contact updated successfully.',
             'deleted' => 'Contact deleted successfully.'
-        ]
+        ],
         //end_Contact_end
+
+        //start_Outcome_start
+        'outcome' => [
+            'saved' => 'Outcome saved successfully.',
+            'updated' => 'Outcome updated successfully.',
+            'deleted' => 'Outcome deleted successfully.'
+        ]
+        //end_Outcome_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

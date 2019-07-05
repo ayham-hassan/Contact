@@ -59,6 +59,11 @@ return [
             'title' => 'Contacts'
         ],
         //end_Contact_end
+        //start_Outcome_start
+        'outcomes' => [
+            'title' => 'Outcome'
+        ],
+        //end_Outcome_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [

@@ -183,6 +183,40 @@ Breadcrumbs::register('admin.contact.edit', function ($breadcrumbs, $id) {
 });
 //end_Contact_end
 
+//start_Outcome_start
+Breadcrumbs::register('admin.outcome.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.outcomes.title'),
+        route('admin.outcome.index')
+    );
+});
+
+Breadcrumbs::register('admin.outcome.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.outcome.index');
+    $breadcrumbs->push(
+        __('labels.backend.outcomes.create'),
+        route('admin.outcome.create')
+    );
+});
+
+Breadcrumbs::register('admin.outcome.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.outcome.index');
+    $breadcrumbs->push(
+        __('menus.backend.outcomes.view'),
+        route('admin.outcome.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.outcome.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.outcome.index');
+    $breadcrumbs->push(
+        __('menus.backend.outcomes.edit'),
+        route('admin.outcome.edit', $id)
+    );
+});
+//end_Outcome_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';
